@@ -6,12 +6,14 @@ import {FaTimes} from "react-icons/fa"
 import { Link } from 'react-scroll';
 
 
-
 const Header:React.FC = () => {
   const [toggle, setToggle]= useState(false);
-  const handleChange =()=> {
+  const handleChange =(e:any)=> {
+    e.preventDefault()
     setToggle(!toggle)
   }
+
+
 
   return (
     <div>
@@ -66,11 +68,13 @@ const Header:React.FC = () => {
         </div>
 
         <div className="text-white xl:hidden sm:mr-5 xs:mr-5 xs:mt-4 md:hidden mt-2  lg:hidden">
-          <div className="sm:mt-2 md:mt-1  left-0 right-0 bottom-0">
-          {toggle ? <FaTimes fontSize={"30px"} color="#fff" onClick={handleChange}/>:
-                    <AiOutlineMenu fontSize={"30px"} color="#fff" onClick={handleChange}/>}
+          <div className="sm:mt-2 md:mt-1  left-0 right-0 bottom-0"onClick={handleChange}>
+          {toggle ? <FaTimes fontSize={"30px"} color="#fff" />:
+                    <AiOutlineMenu fontSize={"30px"} color="#fff" />}
                     
-                  {toggle ? <DropDown props={handleChange} />: null}
+                  {toggle && (
+                    <DropDown setShow={setToggle} props={toggle} />
+                  )}
           </div>
         </div>
       </div>
