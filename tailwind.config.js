@@ -55,17 +55,28 @@ module.exports = {
       //   // 'loop-scroll': 'loop-scroll 50s linear infinite'
       // },
       screens: {
-        radio: { max: '320px' },
-        phone: { max: '375px' },
-        mobile: { max: '425px' },
-        tablet: { max: '768px' },
+        xs: { min: "300px", max: "420px" },
+        sm: { min: "425px", max: "767px" },
+        // => @media (min-width: 640px and max-width: 767px) { ... }
+        md: { min: "768px", max: "1023px" },
+        // => @media (min-width: 768px and max-width: 1023px) { ... }
+        lg: { min: "1024px", max: "1279px" },
+        // => @media (min-width: 1024px and max-width: 1279px) { ... }
+        xl: { min: "1280px", max: "1535px" },
+        // => @media (min-width: 1280px and max-width: 1535px) { ... }
+        "2xl": { min: "1536px" },
+        // => @media (min-width: 1536px) { ... }
+        // radio: { max: '320px' },
+        // phone: { max: '375px' },
+        // mobile: { max: '425px' },
+        // tablet: { max: '768px' },
 
 
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1280px',
-        '2xl': '1536px'
+        // sm: '640px',
+        // md: '768px',
+        // lg: '1024px',
+        // xl: '1280px',
+        // '2xl': '1536px'
       }
     }
   },

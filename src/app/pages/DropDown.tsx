@@ -7,22 +7,22 @@ interface DropDown {
 }
 const DropDown:React.FC<DropDown> = () => {
   return (
-    <div className='radio:h-[50vh]  radio:w-[100%] tablet:w-[200px] top-[45px] tablet:top-[80px] phone:h-[60vh] phone:w-[50%] absolute bg-secondary left-0 right-0 bottom-'>
-        <div className='flex flex-col radio:ml-7 mt-5 tablet:ml-7 mobile:ml-5 phone:ml-5 phone:text-sm phone:mb-0'>
+    <div className='sm:h-[30vh]  sm:w-[100%] bg-slate-200 mt-10 sm:text-primary md:text-primary md:w-[200px] top-[45px] md:top-[80px] absolute left-0 right-0 bottom-'>
+        <div className='text-center flex-col text-[#8f8f8e] text-[20px]  sm:ml-4 mt-5 md:ml-7'>
             <Link to="/home">
-            <div className='radio:p-0 radio:text-[11px] radio:mb-2 phone:mb-2 radio:h-3 mobile:mb-3 '>HOME</div>
+            <div className='sm:p-0 sm:mb-2'>HOME</div>
            </Link>
-           <Link to='about'>
-           <div className=' h-9 radio:mb-2 radio:p-0 radio:text-[11px] radio:h-3 '>ABOUT</div>
+           <Link to='/about'>
+           <div className='sm:p-0 sm:mb-2'>ABOUT</div>
             </Link>       
            <Link to= "/skills">
-           <div className=' h-9  radio:mb-2 radio:p-0 radio:text-[11px] radio:h-3 '>SKILLS</div>
+           <div className=' sm:p-0 sm:mb-2'>SKILLS</div>
            </Link>
            <Link to="/work">
-           <div className='  h-9 radio:mb-2 radio:p-0 radio:text-[11px] radio:h-3 '>WORK</div>
+           <div className='sm:p-0 sm:mb-2'>WORK</div>
          </Link>
            <Link to="/contact">
-           <div className=' mt-1 h-9 radio:mb-2 radio:p-0 radio:text-[11px] radio:h-3'>CONTACT</div>
+           <div className='sm:p-0 sm:mb-2 '>CONTACT</div>
           </Link>
          </div>
     </div>

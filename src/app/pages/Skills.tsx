@@ -10,14 +10,14 @@ import node from '../../assets/node (1).svg'
 import express from '../../assets/expressj.svg'
 import tailwind from '../../assets/tailwindcss.svg'
 
-const Skills = () => {
+const Skills:React.FC = () => {
   return (
-    <div className='mt-10 text-center font-montserrat mb-10'>
-        <div className="justify-center text-[25px] mb-4 text-white font-extrabold">Skills & <span className='text-secondary'>Experience</span></div>
-    <div className="flex">
+    <div id='skills' className='mt-10 text-center font-montserrat mb-10 md:mt-20'>
+        <div className="justify-center text-[25px] xs:mx-auto xs:w-[90%]  sm:mx-auto sm:mr-[1.5rem] mb-4 text-white font-extrabold">Skills & <span className='text-secondary'>Experience</span></div>
+    <div className="flex md:flex-col xs:flex-col sm:flex-col">
     <div className="flex-col">
-    <div className="text-left pl-14 text-white font-bold text-[23px] mb-7 mt-5">Skills</div>
-    <div className="flex-wrap flex w-[480px] pl-[120px] gap-16">
+    <div className="text-left pl-16 text-white font-bold text-[23px] mb-7 mt-5">Skills</div>
+    <div className="flex-wrap flex w-[480px] xs:w-[300px] xs:mx-auto xs:pl-5 sm:w-[400px] sm:pl-14 pl-[120px] gap-16">
      <div className="flex-col animate-fade-up animate-once animate-duration-[2000ms] animate-ease-out animate-normal animate-fill-both">
         <img src={ht} className='h-10' alt="" />
         <div className="text-left text-white font-semibold text-[11px] mt-1">HTML</div>
@@ -60,7 +60,9 @@ const Skills = () => {
       </div>
      </div>
     </div>
-    <div className="ml-20 font-montserrat">
+    <div className="md:flex md:mt-10 flex xs:flex-col  sm:flex-col ">
+
+    <div className="ml-20 xs:mx-auto xs:ml-7 sm:ml-14 font-montserrat">
       <div className="text-left text-white font-bold text-[22px] mb-4 mt-5 font-montserrat">Experience</div>
 
     <div className="space-y-4">
@@ -85,11 +87,11 @@ const Skills = () => {
       
 
       </div>
-      <div className="ml-20 font-montserrat">
-      <div className="text-left text-white font-bold text-[22px] mb-4 mt-5 ">Education</div>
+      <div className="ml-20 xs:mx-auto xs:w-[90%] sm:ml-14 font-montserrat">
+      <div className="text-left text-white font-bold  xs:ml-3 text-[22px] mb-4 mt-5 ">Education</div>
       <div className="">
       <div className="flex gap-5 text-[#858484]">
-        <div className="flex-col ml- ">
+        <div className="flex-col xs:ml-5 ">
             <div className="text-[12px] text-left">Urban And Regional Planning</div>
             <div className="text-[14px]  font-semibold font-montserrat">Kwara State Polytechnic, Ilorin</div>
         </div>
@@ -99,8 +101,8 @@ const Skills = () => {
       </div>
       </div>
 
-      <div className="text-left text-white font-bold text-[20px] mb-4 font-montserrat mt-5">Certification</div>
-      <div className="">
+      <div className="text-left text-white font-bold xs:ml-4 text-[20px] mb-4 font-montserrat mt-5">Certification</div>
+      <div className="flex-col xs:ml-4 space-y-3">
       <div className="flex gap-5 text-[#858484]">
         <div className="flex-col ml- ">
             <div className="text-[12px] text-left">AGSMEIS Training</div>
@@ -110,9 +112,20 @@ const Skills = () => {
 
         
       </div>
+      <div className="flex gap-5 text-[#858484]">
+        <div className="flex-col ml- ">
+            <div className="text-[12px] text-left">Fullstack Engineering</div>
+            <div className="text-[14px]  font-semibold font-montserrat"> Kode10X Technology Solutions</div>
+        </div>
+        <div className="text-[12px] mt-1 font-medium">2023</div>
+
+        
+      </div>
       </div>
 
       </div>
+    </div>
+
 
     </div>
     
