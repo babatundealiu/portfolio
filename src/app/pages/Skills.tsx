@@ -92,10 +92,10 @@ const Skills:React.FC = () => {
       <div className="">
       <div className="flex gap-5 text-[#858484]">
         <div className="flex-col xs:ml-2 ">
-            <div className="text-[12px] text-left">Urban And Regional Planning</div>
+            <div className="text-[12px] text-left">HND, Urban And Regional Planning</div>
             <div className="text-[14px]  font-semibold font-montserrat">Kwara State Polytechnic, Ilorin</div>
         </div>
-        <div className="text-[12px] mt-1 font-medium">2020 - 2021</div>
+        <div className="text-[12px] mt-1 font-medium">2014</div>
 
         
       </div>
