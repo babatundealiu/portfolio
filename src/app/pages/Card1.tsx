@@ -8,7 +8,7 @@ interface Iprops {
     Git: any
 }
 
-const Card2:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
+const Card1:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
   return (
     <div>
       <div className="transform  duration-700 hover:scale-110 shadow transition-ease-out text-primary  bg-[#201e21] h-[350px] md:h-[280px] w-[300px]  md:w-[200px] rounded">
@@ -23,17 +23,14 @@ const Card2:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
                 {content}
             </div>
             <div className="flex justify-center gap-10 mt-3">
-              <a href="https://onibara.netlify.app/">
+              <a href="">
                 <div className="h-5 w-5 text-secondary overflow-hidden flex justify-center">
                 {linkIcon}
             </div>
               </a>
-              <a href="https://github.com/babatundealiu/eCommerceProject">
-              <div className="h-5 w-5 text-secondary overflow-hidden flex justify-center">
+            <div className="h-5 w-5 text-secondary overflow-hidden flex justify-center">
                 {Git}
             </div>
-              </a>
-
             </div>
             
       </div>
@@ -41,4 +38,4 @@ const Card2:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
   )
 }
 
-export default Card2
+export default Card1

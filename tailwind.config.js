@@ -22,7 +22,7 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif']
       },
       colors: {
-        primary: '##3b4163',
+        primary: '#201e21',
         secondary: '#bac98a',
         destructive: '#ddc2a5',
         border: 'hsl(var(--border))',

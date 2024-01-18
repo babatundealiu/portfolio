@@ -7,7 +7,7 @@ interface Iprops {
 }
 const Card:React.FC<Iprops> = ({icon, title, content}) => {
   return (
-    <div className='shadow-4xl bg-[#201e21]  h-[400px] w-[360px] md:h-[300px] md:w-[230px] sm:w-[368px]'>
+    <div className='shadow-4xl bg-primary  h-[400px] w-[360px] md:h-[300px] md:w-[230px] sm:w-[368px]'>
         <div className="absolute h-[25px] w-[200px] border-s-[3px] border-t-[3px]  border-secondary">
         </div>
         <img

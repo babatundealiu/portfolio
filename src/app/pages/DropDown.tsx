@@ -17,7 +17,7 @@ const DropDown:React.FC<IdropDown> = ({props, setShow}) => {
       {
         props 
      && (
-      <div className='text-center flex-col  text-[#8f8f8e] text-[20px]  sm:ml-4 mt-5 md:ml-7'>
+      <div className='text-center flex-col  text-[#8f8f8e] text-[16px]  sm:ml-4 mt-5 md:ml-7'>
         <Link offset={-70}
             duration={1000}
             activeClass="active"

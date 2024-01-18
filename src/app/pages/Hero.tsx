@@ -43,10 +43,10 @@ const Hero:React.FC = () => {
         </div>
         </a>
       </div>
-      <div className="ml-40 sm:ml-16 xs:ml-14 xl:ml-36">
+      <div className="ml-40 sm:ml-16 xs:ml-14">
       <a href={cv}
         download=''
-        className=" text-white px-8 w-20 py-3 xs:px-4 xs:py-2 rounded-full border hover:text-secondary hover:font-extrabold text-[12px] ">Downlod <span className='font- text-[15px]'>CV</span>
+        className=" text-white px-8 w-20 py-3 xs:px-4 xs:py-2 rounded-full border hover:text-secondary hover:font-extrabold text-[12px] ">View <span className='font- text-[15px]'>CV</span>
       </a>
 
       </div>
