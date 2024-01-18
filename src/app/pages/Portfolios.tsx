@@ -23,7 +23,7 @@ const Portfolios:React.FC = () => {
       <div className="justify-center mt-10 gap-5 flex md:gap-7 xs:flex-col xs:mx-auto xs:w-[90%] xs:ml-9 sm:flex-col sm:mx-[61px] sm:w-[75%] w-full animate-loop-scroll group-hover:paused animate-fade-up animate-once animate-duration-[10000ms]  animate-ease-out animate-normal animate-fill-both">
           
         <Card1 image={pic} title='Hotelfinder Web App' content='A platform for hotel accomodation'  linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
-        <Card2 image={pic} title='OniBara' content='An eCommerce platform for shopping' linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
+        <Card2 image={pic} title='Mr.Bara' content='An eCommerce platform for shopping' linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
         <Card3 image={pic3} title='Hotelfinder Web App' content='A platform for hotel accomodation' linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
 
       </div>
