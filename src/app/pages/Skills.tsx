@@ -88,10 +88,10 @@ const Skills:React.FC = () => {
 
       </div>
       <div className="ml-20 xs:mx-auto xs:w-[90%] sm:ml-14 font-montserrat">
-      <div className="text-left text-white font-bold  xs:ml-3 text-[22px] mb-4 mt-5 ">Education</div>
+      <div className="text-left text-white font-bold  xs:ml-2 text-[22px] mb-4 mt-5 ">Education</div>
       <div className="">
       <div className="flex gap-5 text-[#858484]">
-        <div className="flex-col xs:ml-5 ">
+        <div className="flex-col xs:ml-2 ">
             <div className="text-[12px] text-left">Urban And Regional Planning</div>
             <div className="text-[14px]  font-semibold font-montserrat">Kwara State Polytechnic, Ilorin</div>
         </div>
@@ -101,8 +101,8 @@ const Skills:React.FC = () => {
       </div>
       </div>
 
-      <div className="text-left text-white font-bold xs:ml-4 text-[20px] mb-4 font-montserrat mt-5">Certification</div>
-      <div className="flex-col xs:ml-4 space-y-3">
+      <div className="text-left text-white font-bold xs:ml-2 text-[22px] mb-4 font-montserrat mt-5">Certification</div>
+      <div className="flex-col xs:ml-2 space-y-3">
       <div className="flex gap-5 text-[#858484]">
         <div className="flex-col ml- ">
             <div className="text-[12px] text-left">AGSMEIS Training</div>
