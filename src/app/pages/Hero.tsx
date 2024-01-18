@@ -8,6 +8,8 @@ import js from "../../assets/js.png"
 import ts from "../../assets/ts.png"
 import node from "../../assets/nodeexpress.png"
 import cv from '../../assets/myCv.pdf'
+// import { TECarousel, TECarouselItem } from "tw-elements-react";
+
 
 const Hero:React.FC = () => {
   return (
@@ -27,34 +29,34 @@ const Hero:React.FC = () => {
       <div className="flex ml-[149px] gap-4  sm:ml-12 xs:ml-12 md:ml-10">
         <a href="https://x.com/spicyfistjay/status/1747134465036398605?s=46">
         <div className='h-9 w-9 rounded-full mt-5 border-[3px] anim border-secondary text-secondary overflow-hidden'>
-            <div className="justify-center flex align-middle text-center mt-2"><FaXTwitter size='14px' /></div>
+            <div className="justify-center flex align-middle text-center mt-2 animate-pulse"><FaXTwitter size='14px' /></div>
         </div>
         </a>
         <a href="https://www.linkedin.com/in/aliu-babatunde-jamiu-9a700119a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_apputm_source=share&utm_medium=member_ios">
         <div className='h-9 w-9 rounded-full mt-12 border-[3px] border-secondary text-secondary overflow-hidden'>
-            <div className="justify-center flex align-middle text-center mt-2"><FaLinkedinIn size='14px' /></div>
+            <div className="justify-center flex align-middle text-center mt-2 animate-pulse"><FaLinkedinIn size='14px' /></div>
         </div>
         </a>
         <a href="https://github.com/babatundealiu">
         <div className='h-9 w-9 rounded-full mt-5 border-[3px] border-secondary text-secondary overflow-hidden'>
-            <div className="justify-center flex align-middle text-center mt-2"><FaGithub size='14px' /></div>
+            <div className="justify-center flex align-middle text-center mt-2 animate-pulse "><FaGithub size='14px' /></div>
         </div>
         </a>
       </div>
-      <div className="ml-40 sm:ml-16 xs:ml-14">
+      <div className="ml-40 sm:ml-16 xs:ml-14 xl:ml-36">
       <a href={cv}
         download=''
-        className=" text-white px-8 w-20 py-3 xs:px-4 xs:py-2 rounded-full border hover:text-secondary hover:font-extrabold text-[12px]">my <span className='font- text-[15px]'>CV</span>
+        className=" text-white px-8 w-20 py-3 xs:px-4 xs:py-2 rounded-full border hover:text-secondary hover:font-extrabold text-[12px] ">Downlod <span className='font- text-[15px]'>CV</span>
       </a>
 
       </div>
 
      
         </div>
-        <div className="h-[450px] sm:h-[300px] xs:h-[300px] md:ml-12 md:w-[300px] md:h-[400px] sm:w-[90%] sm:mx-auto  sm:justify-center xs:w-[90%] xs:mx-auto  xs:justify-center ml-40 w-[350px] mt-3 rounded-b-none rounded-full overflow-hidden animate-loop-scroll group-hover:paused animate-fill-both  animate-pulse animate-once">
+        <div className="xl:w-[33%] xl:mx-auto xl:ml-28 h-[450px] sm:h-[300px] xs:h-[300px] md:ml-12 md:w-[300px] md:h-[400px] sm:w-[90%] sm:mx-auto  sm:justify-center xs:w-[90%] xs:mx-auto  xs:justify-center ml-40 w-[350px] mt-3 rounded-b-none rounded-full overflow-hidden animate-loop-scroll group-hover:paused animate-fill-both  animate-pulse animate-once">
             <img src={pics} className='w-full h-full object-cover' alt="" />
         </div>
-        <div className="lg:flex-col md:ml-5  sm:flex sm:ml-8 sm:space-x-5 sm:mx-auto sm:w-[90%] sm:mt-10 sm:space-y-0 xs:flex xs:mx-auto xs:w-[90%] xs:space-x-6 xs:mt-10 xs:space-y-0 mt-2 ml-14 space-y-7 animate-once animate-pulse animate-ease-out">
+        <div className="lg:flex-col md:ml-5 xl:mr-28  sm:flex sm:ml-8 sm:space-x-5 sm:mx-auto sm:w-[90%] sm:mt-10 sm:space-y-0 xs:flex xs:mx-auto xs:w-[90%] xs:space-x-6 xs:mt-10 xs:space-y-0 mt-2 ml-14 space-y-7 animate-once animate-pulse animate-ease-out">
         <div className="h-16 w-16 rounded-full md:hidden  overflow-hidden bg-white xs:h-10 xs:w-20">
             <img 
             src={Reactlogo}

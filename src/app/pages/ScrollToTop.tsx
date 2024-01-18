@@ -7,7 +7,7 @@ const ScrollToTop:React.FC = () => {
 
   return (
     <div className="ml-16 mb-10 mt-5">
-            <button onClick={handleClick} className=' rounded-full font-semibold text-[10px]  h-10 w-10 text-gray-200 bg-secondary'>
+            <button onClick={handleClick} className=' rounded-full font-semibold text-[10px]  h-10 w-10 text-dest bg-secondary'>
       Scroll <br />to  top
     </button>
     </div>

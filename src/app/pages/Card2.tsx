@@ -11,9 +11,9 @@ interface Iprops {
 const Card2:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
   return (
     <div>
-      <div className="transform  duration-700 hover:scale-110 shadow transition-ease-out text-primary p-3 bg-[#201e21] h-[350px] md:h-[280px] w-[300px]  md:w-[200px] rounded">
+      <div className="transform  duration-700 hover:scale-110 shadow transition-ease-out text-primary  bg-[#201e21] h-[350px] md:h-[280px] w-[300px]  md:w-[200px] rounded">
         <img 
-            className="h-[230px] md:h-[130px] rounded "
+            className="h-[230px] md:h-[130px] object-fit rounded rounded-b-none "
             src={image}
             alt="" />
             <div className="text-slate-300 mt-4 font-extrabold text-[16px] text-center justify-center flex">

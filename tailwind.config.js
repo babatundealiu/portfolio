@@ -9,7 +9,8 @@ module.exports = {
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}'
+    './src/**/*.{ts,tsx}',
+    
   ],
   theme: {
     container: {
@@ -21,8 +22,8 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif']
       },
       colors: {
-        primary: '#201e21',
-        secondary: '#e99343',
+        primary: '##3b4163',
+        secondary: '#bac98a',
         destructive: '#ddc2a5',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

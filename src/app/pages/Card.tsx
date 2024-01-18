@@ -7,18 +7,18 @@ interface Iprops {
 }
 const Card:React.FC<Iprops> = ({icon, title, content}) => {
   return (
-    <div className='shadow-lg  bg-primary h-[400px] w-[360px] md:h-[300px] md:w-[230px] sm:w-[368px]'>
+    <div className='shadow-4xl bg-[#201e21]  h-[400px] w-[360px] md:h-[300px] md:w-[230px] sm:w-[368px]'>
         <div className="absolute h-[25px] w-[200px] border-s-[3px] border-t-[3px]  border-secondary">
         </div>
         <img
         src={icon}
-        className="h-[200px] bg-white sm:w-[368px] object-cover w-[368px] md:h-[170px]  "
+        className="h-[200px] bg-[#f1f1f1] sm:w-[368px] object-cover w-[368px] md:h-[170px]  "
         alt=''
         />
-        <div className="text-secondary text-left ml-2 text-[12px] font-extrabold mt-1 md:text-[10px] md:font-bold">
+        <div className="text-secondary text-left ml-2 text-[12px] font-extrabold mt-2 md:text-[10px] md:font-bold">
             {title}
         </div>
-        <div className="text-white mb-0 p-2 relative text-[14px] md:text-[11px] text-justify ">
+        <div className="text-white mb-0 m-2 relative text-[14px] md:text-[11px] text-justify ">
             {content}
         </div>
         <div className="absolute md:hidden h-[19px] w-[200px] ml-[160px] lg:hidden xs:hidden sm:hidden border-r-[3px] border-b-[3px] border-secondary">
