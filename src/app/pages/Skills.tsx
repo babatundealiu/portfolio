@@ -15,7 +15,7 @@ const Skills:React.FC = () => {
     <div id='skills' className='mt-10 text-center font-montserrat mb-10 md:mt-20'>
         <div className="justify-center text-[25px] xs:mx-auto xs:w-[90%]  sm:mx-auto sm:mr-[1.5rem] mb-4 text-white font-extrabold">Skills & <span className='text-secondary'>Experience</span></div>
     <div className="flex md:flex-col xs:flex-col sm:flex-col">
-    <div className="flex-col">
+    <div className="flex-col ">
     <div className="text-left pl-16 text-white font-bold text-[23px] mb-7 mt-5">Skills</div>
     <div className="flex-wrap flex w-[480px] xs:w-[300px] xs:mx-auto xs:pl-5 sm:w-[400px] sm:pl-14 pl-[120px] gap-16">
      <div className="flex-col animate-fade-up animate-once animate-duration-[2000ms] animate-ease-out animate-normal animate-fill-both">

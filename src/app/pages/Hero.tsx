@@ -53,9 +53,9 @@ const Hero:React.FC = () => {
 
      
         </div>
-        <div className="xl:w-[33%] xl:mx-auto xl:ml-28 h-[450px] sm:h-[300px] xs:h-[300px] md:ml-12 md:w-[300px] md:h-[400px] sm:w-[90%] sm:mx-auto  sm:justify-center xs:w-[90%] xs:mx-auto  xs:justify-center ml-40 w-[350px] mt-3 rounded-b-none rounded-full overflow-hidden animate-loop-scroll group-hover:paused animate-fill-both  animate-pulse animate-once">
-            <img src={pics} className='w-full h-full object-cover' alt="" />
-        </div>
+        <div className="xl:w-[33%] xl:mx-auto xl:ml-28 h-[450px]  sm:h-[300px] xs:h-[300px] md:ml-12 md:w-[300px] md:h-[400px] sm:w-[90%] sm:mx-auto  sm:justify-center xs:w-[90%] xs:mx-auto  xs:justify-center ml-40 w-[350px] mt-3 rounded-b-none rounded-full overflow-hidden animate-duration-[3000ms] animate-delay-300 animate-fade-down animate-ease-out animate-normal group-hover:paused animate-fill-both animate-once">
+            <img src={pics} className='w-full h-full object-cover  ' alt="" />
+        </div>animate
         <div className="lg:flex-col md:ml-5 xl:mr-28  sm:flex sm:ml-8 sm:space-x-5 sm:mx-auto sm:w-[90%] sm:mt-10 sm:space-y-0 xs:flex xs:mx-auto xs:w-[90%] xs:space-x-6 xs:mt-10 xs:space-y-0 mt-2 ml-14 space-y-7 animate-once animate-pulse animate-ease-out">
         <div className="h-16 w-16 rounded-full md:hidden  overflow-hidden bg-white xs:h-10 xs:w-20">
             <img 

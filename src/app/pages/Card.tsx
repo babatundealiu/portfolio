@@ -18,7 +18,7 @@ const Card:React.FC<Iprops> = ({icon, title, content}) => {
         <div className="text-secondary text-left ml-2 text-[12px] font-extrabold mt-2 md:text-[10px] md:font-bold">
             {title}
         </div>
-        <div className="text-white mb-0 m-2  relative text-[14px] md:text-[11px] text-justify ">
+        <div className="text-white mb-0 m-2 xs:mx-0 sm:mx-0  relative text-[14px] md:text-[11px] text-justify ">
             {content}
         </div>
         <div className="absolute md:hidden h-[19px] w-[200px] ml-[160px] lg:hidden xs:hidden sm:hidden border-r-[3px] border-b-[3px] border-secondary">
