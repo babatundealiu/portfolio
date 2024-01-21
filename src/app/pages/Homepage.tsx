@@ -6,6 +6,7 @@ import Portfolios from '../pages/Portfolios'
 import Header from '../pages/Header'
 import Contact from './Contact'
 import ScrollToTop from './ScrollToTop'
+import Portfolio2 from './Portfolio2'
 
 const Homepage:React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage:React.FC = () => {
         <About />
         <Skills />
         <Portfolios />
+        <Portfolio2 />
         <Contact />
         <ScrollToTop/>
 

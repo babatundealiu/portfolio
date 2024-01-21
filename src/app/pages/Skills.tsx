@@ -17,7 +17,7 @@ const Skills:React.FC = () => {
     <div className="flex md:flex-col xs:flex-col sm:flex-col">
     <div className="flex-col ">
     <div className="text-left pl-16 text-white font-bold text-[23px] mb-7 mt-5">Skills</div>
-    <div className="flex-wrap flex w-[480px] xs:w-[300px] xs:mx-auto xs:pl-5 sm:w-[400px] sm:pl-14 pl-[120px] gap-16">
+    <div className="animate-loop-scroll group-hover:paused animate-fade-up animate-once animate-duration-[10000ms]  animate-ease-out animate-normal animate-fill-both flex-wrap flex w-[480px] xs:w-[300px] xs:mx-auto xs:pl-5 sm:w-[400px] sm:pl-14 pl-[120px] gap-16">
      <div className="flex-col animate-fade-up animate-once animate-duration-[2000ms] animate-ease-out animate-normal animate-fill-both">
         <img src={ht} className='h-10' alt="" />
         <div className="text-left text-white font-semibold text-[11px] mt-1">HTML</div>

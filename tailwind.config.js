@@ -10,6 +10,8 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    "./node_modules/tw-elements-react/dist/js/**/*.js"
+
     
   ],
   theme: {
@@ -50,6 +52,7 @@ module.exports = {
           to: { height: 0 }
         }
       },
+      
       // animation: {
       //   'accordion-down': 'accordion-down 0.2s ease-out',
       //   'accordion-up': 'accordion-up 0.2s ease-out',
@@ -81,7 +84,7 @@ module.exports = {
       }
     }
   },
-  plugins: [require('tailwindcss-animated')]
+  plugins: [require('tailwindcss-animated', "tw-elements-react/dist/plugin.cjs")]
 }
 
 // /** @type {import('tailwindcss').Config} */

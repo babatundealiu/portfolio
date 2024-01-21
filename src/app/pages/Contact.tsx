@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa6";
 const Contact:React.FC = () => {
   return (
     <div>
-      <div id='contact' className="font-extrabold text-center sm:w-[100%] sm:mx-auto mt-10 text-[25px] text-white">
+      <div id='contact' className="font-extrabold text-center sm:w-[100%] mt-20 sm:mx-auto mt-10 text-[25px] text-white">
         Contact <span className='text-secondary text-[25px]'>Me</span>
       </div>
       <div className="flex gap-5 xs:mx-auto xs:w-[80%] sm:mx-auto justify-center mb-0 ">
