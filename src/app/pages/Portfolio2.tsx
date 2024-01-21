@@ -13,12 +13,9 @@ import pic9 from '../../assets/img012.webp'
 import pic10 from '../../assets/img013.jpg'
 import pic4 from '../../assets/img7.png'
 import pic12 from '../../assets/img14.jpg'
-import pic13 from '../../assets/img16.webp'
+// import pic13 from '../../assets/img16.webp'
 import pic14 from '../../assets/img15.webp'
 import pic15 from '../../assets/img17.webp'
-
-
-
 
 
 
@@ -27,7 +24,7 @@ import pic15 from '../../assets/img17.webp'
 import React from "react";
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 
-export default function CarouselWithControls(): JSX.Element {
+const Portfolio2:React.FC= () => {
   return (
     <div className='mt-20'>
       <TECarousel showControls ride="carousel">
@@ -146,3 +143,5 @@ export default function CarouselWithControls(): JSX.Element {
     </div>
   );
 }
+
+export default Portfolio2
