@@ -12,7 +12,7 @@ import mongo from "../../assets/mongo.png"
 import js from "../../assets/js.png"
 import ts from "../../assets/ts.png"
 import node from "../../assets/nodeexpress.png"
-import cv from '../../assets/myCv.pdf'
+import cv from '../../assets/Aliu_Babatunde_Resume.pdf'
 // import { TECarousel, TECarouselItem } from "tw-elements-react";
 
 
