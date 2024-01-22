@@ -69,7 +69,7 @@ const Skills:React.FC = () => {
         <div className="flex gap-5 text-[#858484]">
         <div className="text-[12px] mt-1 font-medium">2023 - current</div>
         <div className="flex-col ">
-            <div className="text-[14px]  font-semibold font-montserrat">Fullstack Developer</div>
+            <div className="text-[14px]  font-semibold font-montserrat">Fullstack Developer Intern</div>
             <div className="text-[12px] text-left">Kode10X</div>
         </div>
         

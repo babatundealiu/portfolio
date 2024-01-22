@@ -35,17 +35,17 @@ const Hero:React.FC = () => {
       
       <div className="flex ml-[149px] gap-4 sm:ml-12 xs:ml-12 md:ml-10">
         <a href="https://x.com/spicyfistjay">
-        <div className='h-9 w-9 rounded-full mt-5 border-[3px] anim border-secondary text-secondary hover:shadow-md shadow-[rgba(0, 8, 0, 0.96) 0px 50px 70px 4px] shadow-black  overflow-hidden'>
+        <div className='h-9 w-9 rounded-full mt-5 border-[3px] animate-pulse border-secondary text-secondary hover:shadow-md shadow-[rgba(0, 8, 0, 0.96) 0px 50px 70px 4px] shadow-black  overflow-hidden'>
             <div className="justify-center flex align-middle text-center mt-2 animate-pulse  "><FaXTwitter size='14px' /></div>
         </div>
         </a>
         <a href="https://www.linkedin.com/in/aliu-babatunde-jamiu-9a700119a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_apputm_source=share&utm_medium=member_ios">
-        <div className='h-9 w-9 rounded-full mt-12 border-[3px] border-secondary text-secondary overflow-hidden'>
+        <div className='h-9 w-9 rounded-full mt-12 border-[3px] border-secondary text-secondary overflow-hidden animate-pulse'>
             <div className="justify-center flex align-middle text-center mt-2 animate-pulse"><FaLinkedinIn size='14px' /></div>
         </div>
         </a>
         <a href="https://github.com/babatundealiu">
-        <div className='h-9 w-9 rounded-full mt-5 border-[3px] border-secondary text-secondary overflow-hidden'>
+        <div className='h-9 w-9 rounded-full mt-5 border-[3px] border-secondary text-secondary overflow-hidden animate-pulse'>
             <div className="justify-center flex align-middle text-center mt-2 animate-pulse "><FaGithub size='14px' /></div>
         </div>
         </a>
