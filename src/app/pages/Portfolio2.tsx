@@ -36,7 +36,7 @@ const Portfolio2:React.FC= () => {
             <div className="flex flex-grow">
             <img
               src={pic12}
-              className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[250px] xl:w-[360px] sm:w-full"
+              className="h-[250px] w-[320px] lg:w-[341px] xs:w-full xl:h-[250px] xl:w-[360px] sm:w-full"
               alt="..."
             />
             <img
@@ -64,11 +64,11 @@ const Portfolio2:React.FC= () => {
             <div className="flex  flex-1">
             <img
               src={pic4}
-              className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[300px] xl:w-[360px] sm:w-full "
+              className="h-[250px] w-[320px] lg:w-[341px] xs:w-full xl:h-[300px] xl:w-[360px] sm:w-full "
               alt="..."
             />
             <img
-              src={pic}
+              src={pic8}
               className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[300px] xl:w-[360px] sm:hidden "
               alt="..."
             />
@@ -91,12 +91,12 @@ const Portfolio2:React.FC= () => {
             <div className="flex flex-grow">
             <img
               src={pic5}
-              className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[300px] xl:w-[360px] sm:w-full"
+              className="h-[250px] w-[320px] lg:w-[341px] xs:w-full xl:h-[300px] xl:w-[360px] sm:w-full"
               alt="..."
             />
             <img
               src={pic10}
-              className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[300px] xl:w-[360px] sm:hidden "
+              className="h-[250px] w-[320px] lg:w-[341px] xs:hidden xl:h-[300px] xl:w-[360px] sm:hidden "
               alt="..."
             />
             <img
@@ -117,23 +117,23 @@ const Portfolio2:React.FC= () => {
           >
             <div className="flex flex-grow">
             <img
-              src={pic8}
-              className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[300px] xl:w-[360px] sm:w-full "
+              src={pic}
+              className="h-[250px] w-[320px] lg:w-[341px] xs:w-full xl:h-[300px] xl:w-[360px] sm:w-full "
               alt="..."
             />
             <img
               src={pic15}
-              className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[300px] xl:w-[360px] sm:hidden "
+              className="h-[250px] w-[320px] lg:w-[341px] xs:hidden xl:h-[300px] xl:w-[360px] sm:hidden "
               alt="..."
             />
             <img
               src={pic14}
-              className="h-[250px] w-[320px] lg:w-[341px] xs:w-[190px] xl:h-[300px] xl:w-[360px] sm:hidden "
+              className="h-[250px] w-[320px] lg:w-[341px] xs:hidden xl:h-[300px] xl:w-[360px] sm:hidden "
               alt="..."
             />
             <img
               src={pic1}
-              className="h-[250px] w-[320px] lg:hidden xl:h-[300px] xl:w-[360px] sm:hidden"
+              className="h-[250px] w-[320px] lg:hidden xs:hidden xl:h-[300px] xl:w-[360px] sm:hidden"
               alt="..."
             />
             </div>

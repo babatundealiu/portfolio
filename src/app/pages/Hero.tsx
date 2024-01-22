@@ -1,10 +1,11 @@
 import React from 'react'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn, FaGithub} from "react-icons/fa";
+import pic2 from '../../assets/WhatsApp Image 2024-01-21 at 5.28.49 PM.jpeg'
+
 // import pics from "../../assets/myPic.jpg"
 // import pic from '../../assets/WhatsApp Image 2024-01-21 at 5.23.37 PM (1).jpeg'
 // import pic1 from '../../assets/WhatsApp Image 2024-01-21 at 5.23.37 PM.jpeg'
-import pic2 from '../../assets/WhatsApp Image 2024-01-21 at 5.28.49 PM.jpeg'
 
 import Reactlogo from "../../assets/react.svg"
 import mongo from "../../assets/mongo.png"
@@ -62,36 +63,36 @@ const Hero:React.FC = () => {
         <div className="xl:w-[33%] xl:mx-auto xl:ml-28 h-[450px]  sm:h-[300px] xs:h-[300px] md:ml-12 md:w-[300px] md:h-[400px] sm:w-[90%] sm:mx-auto  sm:justify-center xs:w-[90%] xs:mx-auto  xs:justify-center ml-40 w-[350px] mt-3 rounded-b-none rounded-full overflow-hidden animate-duration-[3000ms] animate-delay-300 animate-fade-down animate-ease-out animate-normal group-hover:paused animate-fill-both animate-once">
             <img src={pic2} className='w-full h-full object-contain  ' alt="" />
         </div>
-        <div className="lg:flex-col md:ml-5 xl:mr-28  sm:flex sm:ml-8 sm:space-x-5 sm:mx-auto sm:w-[90%] sm:mt-10 sm:space-y-0 xs:flex xs:mx-auto xs:w-[90%] xs:space-x-6 xs:mt-10 xs:space-y-0 mt-2 ml-14 space-y-7 animate-once animate-pulse animate-ease-out">
-        <div className="h-16 w-16 rounded-full md:hidden  overflow-hidden bg-white xs:h-10 xs:w-20">
+        <div className="lg:flex-col md:ml-5 xl:mr-28  sm:flex sm:ml-9 sm:space-x-8 sm:mx-auto sm:w-[90%] sm:mt-10 sm:space-y-0 xs:flex xs:mx-auto xs:w-[90%] xs:space-x-6 xs:mt-10 xs:space-y-0 mt-2 ml-14 space-y-7 animate-once animate-pulse animate-ease-out">
+        <div className="h-16 w-16 rounded-full md:hidden  overflow-hidden bg-white xs:h-12 ">
             <img 
             src={Reactlogo}
             alt=""
-            className='flex mt justify-center  h-10 w-14 xs:h-4 xs:mx-auto xs:text-center   xs:w-full ml-1 align-middle text-center mt-3' />
+            className='flex mt justify-center  h-10 w-14 xs:h-6  xs:mx-auto  xs:text-center   xs:w-full ml-1 align-middle text-center mt-3' />
         </div>
-        <div className="h-[75px] w-[75px] rounded-full ml-10 overflow-hidden bg-white xs:h-10 xs:w-20">
+        <div className="h-16 w-16 rounded-full ml-10 overflow-hidden bg-white xs:h-12 ">
             <img 
             src={ts}
             alt=""
-            className='flex mt justify-center sm:mt-4 sm:ml-4 h-10  w-10 ml-4  xs:h-4 xs:w-5 xs:ml-2 xs:mb-1 align-middle text-center mt-4' />
+            className='flex mt justify-center sm:mt-3 sm:m h-10  w-10 mx-auto xs:h-6 xs:mt-3 xs:mx-auto xs:text-center xs:w-6  align-middle text-center mt-3' />
         </div>
-        <div className="h-[85px] w-[85px] rounded-full overflow-hidden ml-20 bg-white xs:h-10 xs:w-20 ">
+        <div className="h-16 w-16 rounded-full overflow-hidden ml-20 bg-white xs:h-12  ">
             <img 
             src={js}
             alt=""
-            className='flex mt justify-center sm:mt-4 sm:ml-4 h-10  w-10 ml-6  xs:h-4 xs:w-5 xs:ml-2 xs:mb-1 align-middle text-center mt-5' />
+            className='flex mt justify-center sm:mt-3 h-10  w-10 mx-auto  xs:h-6 xs:w-6 xs:mx-auto xs:mt-3 align-middle text-center mt-3 rounded' />
         </div>
-        <div className=" rounded-full h-[75px] w-[75px] overflow-hidden ml-10 bg-white xs:h-10 xs:w-20">
+        <div className=" rounded-full h-16 w-16 overflow-hidden ml-10 bg-white xs:h-12 ">
             <img 
             src={node}
             alt=""
-            className='flex mt justify-center  h-10 w-14 xs:h-5 xs:mx-auto xs:text-center  xs:w-full ml-1 align-middle text-center mt-3' />
+            className='flex mt justify-center  h-10 w-14 xs:h-5 xs:mx-auto xs:text-center xs:w-8 ml-1 align-middle text-center mt-3' />
         </div>
-        <div className="h-16 w-16 rounded-full md:hidden overflow-hidden bg-white sm:hidden xs:h-10 xs:w-20">
+        <div className="h-16 w-16 rounded-full md:hidden overflow-hidden bg-white sm:hidden xs:h-12">
             <img 
             src={mongo}
             alt=""
-            className='flex mt justify-center h-10 w-10 ml-3 align-middle text-center mt-3 xs:h-10 xs:w-20' />
+            className='flex mt justify-center h-10 w-10 ml-3 align-middle text-center mt-3 xs:h-7 xs:w-7 xs:mx-auto' />
         </div>
         </div>
         
