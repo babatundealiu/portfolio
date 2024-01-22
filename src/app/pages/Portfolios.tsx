@@ -6,7 +6,7 @@ import Card1 from './Card1'
 // import pic from '../../assets/img (125).jpg'
 import pic from '../../assets/Screenshot 2024-01-18 162351.png'
 import pic3 from '../../assets/img (124).jpg'
-import pic2 from '../../assets/img3.png'
+import pic2 from '../../assets/Screenshot 2024-01-22 082556.png'
 
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
@@ -24,7 +24,7 @@ const Portfolios:React.FC = () => {
       </div>
       <div  className=" justify-center mt-10 gap-5 flex md:gap-7 xs:flex-col xs:mx-auto xs:w-[90%] xs:ml-9 sm:flex-col sm:mx-[61px] sm:w-[75%] w-full animate-loop-scroll group-hover:paused animate-fade-up animate-once animate-duration-[10000ms]  animate-ease-out animate-normal animate-fill-both">
           
-        <Card1 image={pic2} title='Hotelfinder Web App' content='A platform for hotel accomodation'  linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
+        <Card1 image={pic2} title='Momo Hackathon' content='an mtn product of inclusivity'  linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
         <Card2 image={pic} title='Mr.Bara' content='An eCommerce platform for shopping' linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
         <Card3 image={pic3} title='Hotelfinder Web App' content='A platform for hotel accomodation' linkIcon={<FaExternalLinkAlt/>} Git={<FaGithub size='17px' />}/>
 
