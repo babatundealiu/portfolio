@@ -1,14 +1,18 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-import Homepage from '../app/pages/Homepage'
+import LandingPage from '../pages/LandingPage'
+import WebLayout from '../layout/WebLayout'
 
 
 const Index= createBrowserRouter ([
     {
         path: "/",
-        element: <Homepage />,
+        element: <WebLayout />,
         children: [
-
+            {
+                index: true,
+                element: <LandingPage />
+            }
         ]
     }
 ])

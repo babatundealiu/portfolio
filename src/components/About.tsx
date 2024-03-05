@@ -1,9 +1,9 @@
 import React from 'react'
-import Card from '../pages/Card'
-import pic from "../../assets/fd.jpg"
-import backend from "../../assets/bd.jpg"
-import js from "../../assets/wd.jpg"
-import mern from "../../assets/mern.jpg"
+import Card from './Card'
+import pic from '../assets/fd.jpg'
+import backend from "../assets/bd.jpg"
+import js from "../assets/wd.jpg"
+import mern from "../assets/mern.jpg"
 // import mongo from "../../assets/mongo.png"
 
 const About:React.FC = () => {

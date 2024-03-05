@@ -1,21 +1,20 @@
 
-import pic16 from '../../assets/img3.png'
-import pic from '../../assets/img4.png'
-import pic2 from '../../assets/img04.jpg'
-import pic1 from "../../assets/img (124).jpg"
-import pic3 from '../../assets/img (125).jpg'
-import pic11 from '../../assets/img.webp'
-import pic5 from '../../assets/img5.png'
-import pic6 from '../../assets/img6.png'
-import pic7 from '../../assets/img010.webp'
-import pic8 from '../../assets/img011.webp'
-import pic9 from '../../assets/img012.webp'
-import pic10 from '../../assets/img013.jpg'
-import pic4 from '../../assets/img7.png'
-import pic12 from '../../assets/img14.jpg'
-// import pic13 from '../../assets/img16.webp'
-import pic14 from '../../assets/img15.webp'
-import pic15 from '../../assets/img17.webp'
+import pic16 from '../assets/img3.png'
+import pic from '../assets/img4.png'
+import pic2 from '../assets/img04.jpg'
+import pic1 from "../assets/img (124).jpg"
+import pic3 from '../assets/img (125).jpg'
+import pic11 from '../assets/img.webp'
+import pic5 from '../assets/img5.png'
+import pic6 from '../assets/img6.png'
+import pic7 from '../assets/img010.webp'
+import pic8 from '../assets/img011.webp'
+import pic9 from '../assets/img012.webp'
+import pic10 from '../assets/img013.jpg'
+import pic4 from '../assets/img7.png'
+import pic12 from '../assets/img14.jpg'
+import pic14 from '../assets/img15.webp'
+import pic15 from '../assets/img17.webp'
 
 
 

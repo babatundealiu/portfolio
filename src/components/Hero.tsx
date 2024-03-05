@@ -1,18 +1,18 @@
 import React from 'react'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn, FaGithub} from "react-icons/fa";
-import pic2 from '../../assets/WhatsApp Image 2024-01-21 at 5.28.49 PM.jpeg'
+import pic2 from '../assets/WhatsApp Image 2024-01-21 at 5.28.49 PM.jpeg'
 
 // import pics from "../../assets/myPic.jpg"
 // import pic from '../../assets/WhatsApp Image 2024-01-21 at 5.23.37 PM (1).jpeg'
 // import pic1 from '../../assets/WhatsApp Image 2024-01-21 at 5.23.37 PM.jpeg'
 
-import Reactlogo from "../../assets/react.svg"
-import mongo from "../../assets/mongo.png"
-import js from "../../assets/js.png"
-import ts from "../../assets/ts.png"
-import node from "../../assets/nodeexpress.png"
-import cv from '../../assets/Aliu_Babatunde_Resume.pdf'
+import Reactlogo from "../assets/react.svg"
+import mongo from "../assets/mongo.png"
+import js from "../assets/js.png"
+import ts from "../assets/ts.png"
+import node from "../assets/nodeexpress.png"
+import cv from '../assets/Aliu_Babatunde_Resume.pdf'
 // import { TECarousel, TECarouselItem } from "tw-elements-react";
 
 

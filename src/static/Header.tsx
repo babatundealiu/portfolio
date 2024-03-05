@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 // import { Link} from 'react-router-dom'
-import DropDown from './DropDown'
+import DropDown from '../components/DropDown'
 import { AiOutlineMenu } from "react-icons/ai";
 import {FaTimes} from "react-icons/fa"
 import { Link } from 'react-scroll';

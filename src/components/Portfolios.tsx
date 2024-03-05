@@ -1,12 +1,12 @@
 import React from 'react'
-import Button from '../pages/Button'
+import Button from './Button'
 import Card2 from './Card2'
 import Card3 from './Card3'
 import Card1 from './Card1'
 // import pic from '../../assets/img (125).jpg'
-import pic from '../../assets/Screenshot 2024-01-18 162351.png'
-import pic3 from '../../assets/img (124).jpg'
-import pic2 from '../../assets/Screenshot 2024-01-22 082556.png'
+import pic from '../assets/Screenshot 2024-01-18 162351.png'
+import pic3 from '../assets/img (124).jpg'
+import pic2 from '../assets/Screenshot 2024-01-22 082556.png'
 
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
