@@ -68,8 +68,10 @@ const Header:React.FC = () => {
         </div>
 
         <div className="text-white xl:hidden sm:mr-5 xs:mr-5 xs:mt-4 md:hidden mt-2  lg:hidden">
-          <div className="sm:mt-2 md:mt-1  left-0 right-0 bottom-0"onClick={handleChange}>
+          <div className="sm:mt-2 md:mt-1 flex space-x-1 left-0 right-0 bottom-0"onClick={handleChange}>
+            <div className="text-sm mt-">MENU</div>
           {toggle ? <FaTimes fontSize={"30px"} color="#fff" />:
+                  
                     <AiOutlineMenu fontSize={"30px"} color="#fff" />}
                     
                   {toggle && (
