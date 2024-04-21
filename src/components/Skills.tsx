@@ -50,7 +50,7 @@ const Skills:React.FC = () => {
         <img src={node} className='h-10' alt="" />
         <div className="text-left text-white font-semibold text-[11px] mt-1">NodeJs</div>
       </div>
-      <div className="flex-col animate-fade-up animate-once animate-duration-[3000ms] animate-delay-[1000ms] animate-ease-out animate-normal animate-fill-both">
+      <div className="flex-col animate-fade-up animate-once animate-duration-[3000ms]  animate-delay-[1000ms] animate-ease-out animate-normal animate-fill-both">
         <img src={express} className='h-10' alt="" />
         <div className="text-left text-white font-semibold text-[11px] mt-1">ExpressJs</div>
       </div>

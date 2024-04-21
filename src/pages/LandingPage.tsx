@@ -7,7 +7,7 @@ import Portfolio2 from '../components/Portfolio2'
 import Contact from '../components/Contact'
 import ScrollToTop from '../components/ScrollToTop'
 
-const LandingPage = () => {
+const LandingPage:React.FC = () => {
   return (
     <div>
       <Hero />
