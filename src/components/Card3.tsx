@@ -26,7 +26,7 @@ const Card3:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
                 {content}
             </div>
             <div className="flex justify-center gap-10 mt-3">
-              <a href="">
+              <a href="https://admirable-monstera-0ad7cd.netlify.app/">
               <div className="h-5 w-20 text-[12px] text-secondary flex justify-center gap-1">
                 {linkIcon}
                 <a className="text-[12px] font-mono xs:text-[10px] sm:text-[10px] md:text-[10px]">view more</a>
