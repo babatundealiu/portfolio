@@ -29,7 +29,7 @@ const Card1:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
               <a href="https://admirable-monstera-0ad7cd.netlify.app/">
             <div className="h-5 w-20 text-[12px] text-secondary flex justify-center gap-1">
                 {linkIcon}
-                <a className="text-[12px] font-mono">view more</a>
+                <a className="text-[12px] font-mono xs:text-[8px] sm:text-[8px] md:text-[8px]">view more</a>
             </div>
             </a>
               <a href="https://github.com/babatundealiu/momohack">

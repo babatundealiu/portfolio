@@ -29,7 +29,7 @@ const Card3:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
               <a href="">
               <div className="h-5 w-20 text-[12px] text-secondary flex justify-center gap-1">
                 {linkIcon}
-                <a className="text-[12px] font-mono">view more</a>
+                <a className="text-[12px] font-mono xs:text-[10px] sm:text-[10px] md:text-[10px]">view more</a>
             </div>
               </a>
             <div className="h-5 w-5 text-secondary overflow-hidden flex justify-center">

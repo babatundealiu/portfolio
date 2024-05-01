@@ -58,7 +58,7 @@ const Form:React.FC = () => {
                         name="name"  type="text" className="w-full border border-primary bg-[#fffff] rounded-[30px] p-2 placeholder:text-primary outline-none " placeholder="Name" />
                     </div>
                     <div className="flex flex-col space-y-4">
-                        <input name="email"  onChange={handleChange} type="email" placeholder="Your Email" className="placeholder:text-primary outline-none border border-primary bg-[#fffff] rounded-[30px] p-2" />
+                        <input name="email"  onChange={handleChange} type="email" placeholder="Your Email" className="placeholder:text-primary outline-none border border-primary  rounded-[30px] p-2" />
                         <input name="phonenumber" onChange={handleChange} type="tel" placeholder="Contact" className="placeholder:text-primary border border-primary bg-[#fffff] rounded-[30px] outline-none p-2" />
                         <button onClick={handleClick}  className=" bg-primary text-white font-bold hover:shadow-none shadow-md rounded-[30px] py-3">Submit</button>
                     </div>
