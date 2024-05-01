@@ -14,7 +14,7 @@ const Form:React.FC = () => {
         name: "",
         // lastname: "",
         email: "",
-        phonenumber: Number,
+        phonenumber: Number.parseFloat("")
         // address: "",
         // experience: "",
     });
