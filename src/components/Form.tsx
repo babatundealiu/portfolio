@@ -4,7 +4,7 @@ import React, { useState } from "react";
 // import { MdMailOutline, MdSupportAgent} from "react-icons/md"
 import { RegisterUser } from "../utils/ApiCalls";
 import {  useNavigate } from 'react-router-dom';
-import ShowToast from "..";
+import ShowToast from "../commons/ShowToast";
 
 
 
@@ -60,8 +60,6 @@ const Form:React.FC = () => {
                     <div className="flex flex-col space-y-4">
                         <input name="email"  onChange={handleChange} type="email" placeholder="Your Email" className="placeholder:text-primary outline-none border border-primary bg-[#fffff] rounded-[30px] p-2" />
                         <input name="phonenumber" onChange={handleChange} type="tel" placeholder="Contact" className="placeholder:text-primary border border-primary bg-[#fffff] rounded-[30px] outline-none p-2" />
-                        {/* <input name="address"  onChange={handleChange} type="text" placeholder="Address" className="placeholder:text-primary border border-primary bg-[#fffff] rounded-[30px] outline-none p-2" />
-                        <input name="experience" onChange={handleChange} type="text" placeholder="experience" className="placeholder:text-primary border border-primary bg-[#fffff] rounded-[10px] outline-none py-10 px-2 pt-0 " /> */}
                         <button onClick={handleClick}  className=" bg-primary text-white font-bold hover:shadow-none shadow-md rounded-[30px] py-3">Submit</button>
                     </div>
                 
