@@ -27,7 +27,8 @@ const Particlesbg = ( ) => {
             options={{
                 background: {
                     color: {
-                        value: "#1f1f1f",
+                        //        primary: '#201e21', #bac98a'
+                        value: "#00",
                     },
                 },
                 fpsLimit: 120,
