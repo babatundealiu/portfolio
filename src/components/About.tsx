@@ -20,9 +20,6 @@ const About:React.FC = () => {
         <Card icon={mern} title='MERN STACK' content='Highly skilled software development engineer, well-versed in JavaScript, Typescript, Express, MongoDb, React and NodeJs. My ability to work on both sides of web development allows me to lead or collaborate with cross-functional teams effectively, offering advanced knowledge of in-demand programming languages' />
 
       </div>
-      {/* <div className="mt-10 justify-center sm:ml-12 md:mt-28 flex">
-      <Card icon={mern} title='BACKEND DEVELOPMENT' content='As a skilled web developer, I excel in crafting stunning and intuitive websites that seamlessly blend cutting-edge design with robust functionality, ensuring an exceptional user experience. My passion for web development drives me to deliver impactful solutions that exceed client expectations and elevate online presence.' />
-      </div> */}
 
     </div>
   )

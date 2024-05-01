@@ -12,6 +12,10 @@ const Index= createBrowserRouter ([
             {
                 index: true,
                 element: <LandingPage />
+            },
+            {
+                path: '/about',
+                element: <LandingPage/>
             }
         ]
     }

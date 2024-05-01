@@ -3,6 +3,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn, FaGithub} from "react-icons/fa";
 import pic2 from '../assets/WhatsApp Image 2024-01-21 at 5.28.49 PM.jpeg'
 
+// import Particles from "react-particles";
+// import type { Engine } from "@tsparticles/engine";
+// import { loadFull } from "tsparticles";
+
+
 // import pics from "../../assets/myPic.jpg"
 // import pic from '../../assets/WhatsApp Image 2024-01-21 at 5.23.37 PM (1).jpeg'
 // import pic1 from '../../assets/WhatsApp Image 2024-01-21 at 5.23.37 PM.jpeg'
@@ -13,12 +18,18 @@ import js from "../assets/js.png"
 import ts from "../assets/ts.png"
 import node from "../assets/nodeexpress.png"
 import cv from '../assets/Aliu_Babatunde_Resume.pdf'
+import Particlesbg from './Particlesbg';
 // import { TECarousel, TECarouselItem } from "tw-elements-react";
+
+
 
 
 const Hero:React.FC = () => {
   return (
-    <div className=' h-[530px] sm:h-[850px] flex sm:flex-col xs:h-[850px] xs:flex-col  w-full    mt-[100px]   '>
+    <div className=' h-[530px] overflow-hidden sm:h-[850px] flex sm:flex-col xs:h-[850px] xs:flex-col  w-full    mt-[100px] '>
+      <div className=" -z-10">
+      <Particlesbg />
+      </div>
         <div className=" space-y-5 animate-loop-scroll group-hover:paused animate-jump-in animate-once animate-duration-[5000ms] animate-ease-out animate-normal animate-fill-both">
 
         <div className="bg-white sm:h-[120px] sm:w-[91%] xs:h-[120px] xs:w-[91%] h-[80px] w-[175px] ml-32 flex sm:mx-auto xs:mx-auto md:ml-10 rounded-3xl">

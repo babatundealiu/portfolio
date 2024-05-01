@@ -19,24 +19,24 @@ const Card1:React.FC<Iprops> = ({image, title, content, linkIcon, Git}) => {
             alt="" />
         </a>
 
-            <div className="text-slate-300 mt-4 font-extrabold text-[16px] text-center justify-center flex">
+            <div className="text-slate-300 mt-4 font-mono text-[16px] text-center justify-center flex">
                 {title}
             </div>
-            <div className="text-slate-300 font-bold mt-1 text-[13px] text-pretty justify-center flex">
+            <div className="text-slate-300 font-mono mt-1 text-[13px] text-pretty justify-center flex">
                 {content}
             </div>
             <div className="flex justify-center gap-10 mt-3">
               <a href="https://admirable-monstera-0ad7cd.netlify.app/">
-                <div className="h-5 w-5 text-secondary overflow-hidden flex justify-center">
+            <div className="h-5 w-20 text-[12px] text-secondary flex justify-center gap-1">
                 {linkIcon}
+                <a className="text-[12px] font-mono">view more</a>
             </div>
-              </a>
+            </a>
               <a href="https://github.com/babatundealiu/momohack">
             <div className="h-5 w-5 text-secondary overflow-hidden flex justify-center">
                 {Git}
             </div>
               </a>
-
             </div>
             
       </div>
