@@ -55,7 +55,7 @@ const Particlesbg = ( ) => {
                 },
                 particles: {
                     color: {
-                        value: "#53faee",
+                        value: "#fff",
                     },
                     links: {
                         color: "#53faee",
@@ -86,7 +86,7 @@ const Particlesbg = ( ) => {
                         value: 0.5,
                     },
                     shape: {
-                        type: "circle",
+                        type: "star",
                     },
                     size: {
                         value: { min: 1, max: 4 },
