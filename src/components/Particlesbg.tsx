@@ -20,7 +20,7 @@ const Particlesbg = ( ) => {
     };
    
     return (
-      <div className=" lg:hidden ">
+      <div className="">
          { init && <Particles
             id="tsparticles"
             {...ParticlesLoaded}
